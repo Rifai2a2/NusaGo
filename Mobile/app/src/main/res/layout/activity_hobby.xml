@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/hobby"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_700">
+
+    <RelativeLayout
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:layout_gravity="top|left"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+        <RelativeLayout
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_gravity="top|left">
+
+            <RelativeLayout
+                android:layout_width="88dp"
+                android:layout_height="88dp"
+                android:layout_gravity="top|left">
+
+                <com.nusago.ui.round.CodiaRoundImageView
+                    android:layout_width="88dp"
+                    android:layout_height="88dp"
+                    android:layout_gravity="top|left"
+                    android:background="@drawable/drawable_shape_2"
+                    android:scaleType="centerInside"
+                    app:radius="44dp"/>
+                <ImageView
+                    android:layout_width="45.19dp"
+                    android:layout_height="45.19dp"
+                    android:layout_marginLeft="34.61dp"
+                    android:layout_marginTop="13.49dp"
+                    android:layout_gravity="top|left"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/drawable_image" />
+
+                <ImageView
+                    android:layout_width="30.92dp"
+                    android:layout_height="30.92dp"
+                    android:layout_marginLeft="10.79dp"
+                    android:layout_marginTop="21.4dp"
+                    android:layout_gravity="top|left"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/drawable_image_4" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="59dp"
+            android:layout_height="13dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="55dp"
+            android:layout_gravity="top|left"
+            android:fallbackLineSpacing="false"
+            android:gravity="left|top"
+            android:includeFontPadding="false"
+            android:lineHeight="18.15dp"
+            android:lineSpacingExtra="0.58dp"
+            android:text="NusaGo"
+            android:textColor="#FF1E1E1E"
+            android:textSize="15dp"
+            tools:text="NusaGo" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="120dp"
+        android:layout_height="53dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="127dp"
+        android:layout_marginTop="150dp"
+        android:layout_gravity="top|left"
+        android:background="@drawable/drawable_shape_3"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+        <com.nusago.ui.round.CodiaRoundImageView
+            android:layout_width="120dp"
+            android:layout_height="53dp"
+            android:layout_gravity="top|left"
+            android:background="@drawable/border_radius"
+            android:scaleType="centerInside"
+            app:radius="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textStyle="bold|italic"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="12dp"
+            android:layout_gravity="top|left"
+            android:text="Hobby"
+            android:gravity="left|top"
+            android:includeFontPadding="false"
+            android:textColor="#FF000000"
+            android:textSize="25dp" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/waterActivities"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="50dp"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+        <com.nusago.ui.round.CodiaRoundImageView android:layout_width="120dp" android:layout_height="120dp" android:layout_marginLeft="4dp" android:layout_gravity="top|left" android:background="@drawable/button_selector2" android:scaleType="centerInside" app:radius="60dp"/>
+        <TextView
+            android:layout_width="126dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="65dp"
+            android:layout_gravity="top|left"
+            android:fallbackLineSpacing="false"
+            android:gravity="center_horizontal|top"
+            android:includeFontPadding="false"
+            android:lineHeight="18.15dp"
+            android:textStyle="bold"
+            android:lineSpacingExtra="0.58dp"
+            android:text="Water \nActivities"
+            android:textColor="#FF1E1E1E"
+            android:textSize="17dp"
+            tools:text="Water \nActivities" />
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="9dp"
+            android:layout_gravity="top|left"
+            android:scaleType="centerInside"
+            android:src="@drawable/sea" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/hiking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_gravity="top|left"
+        android:layout_marginStart="230dp"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+        <com.nusago.ui.round.CodiaRoundImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/button_selector2"
+            android:scaleType="centerInside"
+            app:radius="60dp" />
+
+        <TextView
+            android:layout_width="126dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="72dp"
+            android:layout_gravity="top|left"
+            android:fallbackLineSpacing="false"
+            android:gravity="center_horizontal|top"
+            android:includeFontPadding="false"
+            android:lineHeight="28.15dp"
+            android:lineSpacingExtra="0.58dp"
+            android:textStyle="bold"
+            android:text="Hiking"
+            android:textColor="#000000"
+            android:textSize="17dp"
+            tools:text="Hiking" />
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="top|left"
+            android:scaleType="centerInside"
+            android:src="@drawable/hiking" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/culinaryTour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:layout_marginStart="50dp"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+        <com.nusago.ui.round.CodiaRoundImageView android:layout_width="120dp" android:layout_height="120dp" android:layout_marginLeft="4dp" android:layout_gravity="top|left" android:background="@drawable/button_selector2" android:scaleType="centerInside" app:radius="60dp"/>
+        <TextView
+            android:layout_width="126dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="65dp"
+            android:layout_gravity="top|left"
+            android:fallbackLineSpacing="false"
+            android:gravity="center_horizontal|top"
+            android:includeFontPadding="false"
+            android:lineHeight="18.15dp"
+            android:textStyle="bold"
+            android:lineSpacingExtra="0.58dp"
+            android:text="Culinary \nTour"
+            android:textColor="#FF1E1E1E"
+            android:textSize="17dp" />
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="9dp"
+            android:layout_gravity="top|left"
+            android:scaleType="centerInside"
+            android:src="@drawable/culinary" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/other"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:layout_marginStart="230dp"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+        <com.nusago.ui.round.CodiaRoundImageView android:layout_width="120dp" android:layout_height="120dp" android:layout_marginLeft="4dp" android:layout_gravity="top|left" android:background="@drawable/button_selector2" android:scaleType="centerInside" app:radius="60dp"/>
+
+        <TextView
+            android:layout_width="126dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="65dp"
+            android:layout_gravity="top|left"
+            android:fallbackLineSpacing="false"
+            android:gravity="center_horizontal|top"
+            android:includeFontPadding="false"
+            android:lineHeight="18.15dp"
+            android:lineSpacingExtra="0.58dp"
+            android:text="CityTour"
+            android:textColor="#FF1E1E1E"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="9dp"
+            android:layout_gravity="top|left"
+            android:scaleType="centerInside"
+            android:src="@drawable/earth" />
+    </RelativeLayout>
+
+</RelativeLayout>

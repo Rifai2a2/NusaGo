@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/splash_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_700"
+    android:clipToPadding="false">
+
+    <RelativeLayout
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <com.nusago.ui.round.CodiaRoundImageView
+            android:layout_width="150dp" android:layout_height="150dp" android:layout_gravity="top|left" android:background="@drawable/drawable_shape_2" android:scaleType="centerInside" app:radius="75dp"/>
+        <TextView
+            android:layout_width="99.32dp"
+            android:layout_height="30.41dp"
+            android:layout_marginLeft="28.40dp"
+            android:layout_marginTop="89.2dp"
+            android:layout_gravity="top|left"
+            android:fallbackLineSpacing="false"
+            android:gravity="left|top"
+            android:includeFontPadding="false"
+            android:lineHeight="30.26dp"
+            android:lineSpacingExtra="0.96dp"
+            android:text="NusaGo"
+            android:textColor="#FF1E1E1E"
+            android:textSize="25dp"
+            tools:text="NusaGo" />
+
+        <ImageView
+            android:layout_width="77.03dp"
+            android:layout_height="77.03dp"
+            android:layout_marginLeft="59dp"
+            android:layout_marginTop="23dp"
+            android:layout_gravity="top|left"
+            android:scaleType="centerInside"
+            android:src="@drawable/drawable_image" />
+
+        <ImageView
+            android:layout_width="52.7dp"
+            android:layout_height="52.7dp"
+            android:layout_marginLeft="18.39dp"
+            android:layout_marginTop="36.49dp"
+            android:layout_gravity="top|left"
+            android:scaleType="centerInside"
+            android:src="@drawable/drawable_image_4" />
+    </RelativeLayout>
+
+</RelativeLayout>

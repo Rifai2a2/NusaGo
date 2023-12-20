@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_700"
+    android:clipToPadding="false">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:layout_gravity="top|left"
+        android:gravity="left|top"
+        android:includeFontPadding="false"
+        android:lineHeight="22.99dp"
+        android:text="NusaGo"
+        android:textColor="#FF000000"
+        android:textSize="19dp"
+        tools:text="NusaGo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_marginLeft="156dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|top"
+        android:includeFontPadding="false"
+        android:lineHeight="22.99dp"
+        android:text="Profile"
+        android:textColor="#FF000000"
+        android:textSize="19dp"
+        tools:text="Profile" />
+
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="138dp"
+        android:layout_marginTop="83dp"
+        android:layout_gravity="top|left"
+        android:scaleType="centerInside"
+        android:src="@drawable/user" />
+
+    <RelativeLayout
+        android:layout_width="320dp"
+        android:layout_height="255dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="231dp"
+        android:layout_gravity="top|left"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+        <com.nusago.ui.round.CodiaRoundImageView android:layout_width="320dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="72dp" android:layout_gravity="top|left" android:background="@drawable/drawable_shape_1" android:scaleType="centerInside" app:radius="10dp"/>
+        <com.nusago.ui.round.CodiaRoundImageView android:layout_width="320dp" android:layout_height="72dp" android:layout_marginTop="92dp" android:layout_gravity="top|left" android:background="@drawable/drawable_shape_1" android:scaleType="centerInside" app:radius="10dp"/>
+        <com.nusago.ui.round.CodiaRoundImageView
+            android:id="@+id/logout"
+            android:layout_width="320dp" android:layout_height="72dp" android:layout_marginTop="183dp" android:layout_gravity="top|left" android:background="@drawable/drawable_shape_1" android:scaleType="centerInside" app:radius="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="23dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="top|left"
+            android:gravity="left|top"
+            android:includeFontPadding="false"
+            android:lineHeight="22.99dp"
+            android:text="User@gmail.com"
+            android:textColor="#FF000000"
+            android:textSize="19dp"
+            tools:text="User@gmail.com" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="23dp"
+            android:layout_centerHorizontal="true"            android:layout_marginTop="208dp"
+            android:layout_gravity="top|left"
+            android:gravity="left|top"
+            android:textStyle="bold"
+            android:includeFontPadding="false"
+            android:lineHeight="22.99dp"
+            android:text="Logout"
+            android:textColor="#FF000000"
+            android:textSize="19dp"
+            tools:text="Logout" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="23dp"
+            android:layout_centerHorizontal="true"            android:layout_marginTop="116dp"
+            android:layout_gravity="top|left"
+            android:gravity="left|top"
+            android:textStyle="bold"
+            android:includeFontPadding="false"
+            android:lineHeight="22.99dp"
+            android:text="Change Hobby"
+            android:textColor="#FF000000"
+            android:textSize="19dp"
+            tools:text="Change Hobby" />
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="197dp"
+            android:layout_gravity="top|left"
+            android:scaleType="centerInside"
+            android:src="@drawable/shutdown" />
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="105dp"
+            android:layout_gravity="top|left"
+            android:scaleType="centerInside"
+            android:src="@drawable/hiking" />
+    </RelativeLayout>
+</RelativeLayout>

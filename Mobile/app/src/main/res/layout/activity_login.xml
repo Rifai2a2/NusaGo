@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_700">
+
+    <RelativeLayout
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:layout_gravity="top|left"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+        <RelativeLayout
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_gravity="top|left">
+
+            <RelativeLayout
+                android:layout_width="88dp"
+                android:layout_height="88dp"
+                android:layout_gravity="top|left">
+
+                <com.nusago.ui.round.CodiaRoundImageView
+                    android:layout_width="88dp"
+                    android:layout_height="88dp"
+                    android:layout_gravity="top|left"
+                    android:background="@drawable/drawable_shape_2"
+                    android:scaleType="centerInside"
+                    app:radius="44dp"/>
+                <ImageView
+                    android:layout_width="45.19dp"
+                    android:layout_height="45.19dp"
+                    android:layout_marginLeft="34.61dp"
+                    android:layout_marginTop="13.49dp"
+                    android:layout_gravity="top|left"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/drawable_image" />
+
+                <ImageView
+                    android:layout_width="30.92dp"
+                    android:layout_height="30.92dp"
+                    android:layout_marginLeft="10.79dp"
+                    android:layout_marginTop="21.4dp"
+                    android:layout_gravity="top|left"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/drawable_image_4" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="59dp"
+            android:layout_height="13dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="55dp"
+            android:layout_gravity="top|left"
+            android:fallbackLineSpacing="false"
+            android:gravity="left|top"
+            android:includeFontPadding="false"
+            android:lineHeight="18.15dp"
+            android:lineSpacingExtra="0.58dp"
+            android:text="NusaGo"
+            android:textColor="#FF1E1E1E"
+            android:textSize="15dp"
+            tools:text="NusaGo" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="120dp"
+        android:layout_height="53dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="127dp"
+        android:layout_marginTop="150dp"
+        android:layout_gravity="top|left"
+        android:background="@drawable/drawable_shape_3"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+        <com.nusago.ui.round.CodiaRoundImageView
+            android:layout_width="120dp"
+            android:layout_height="53dp"
+            android:layout_gravity="top|left"
+            android:background="@drawable/border_radius"
+            android:scaleType="centerInside"
+            app:radius="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textStyle="bold|italic"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="12dp"
+            android:text="Login"
+            android:layout_gravity="top|left"
+            android:gravity="left|top"
+            android:includeFontPadding="false"
+            android:textColor="#FF000000"
+            android:textSize="25dp"
+            tools:text="Login" />
+    </RelativeLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/emailEditTextLayout"
+        android:layout_centerHorizontal="true"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:alpha="0"
+        android:layout_marginTop="250dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:startIconDrawable="@drawable/ic_baseline_email_24"
+        tools:alpha="100">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:background="@drawable/input_background"
+            android:hint="Email"
+            android:textColor="#8C000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:inputType="textEmailAddress"  />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+    android:id="@+id/passwordEditTextLayout"
+    android:layout_centerHorizontal="true"
+    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+    android:layout_width="600dp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="32dp"
+    android:layout_marginEnd="32dp"
+    android:alpha="0"
+    android:layout_marginTop="350dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:endIconMode="password_toggle"
+    app:layout_constraintStart_toStartOf="parent"
+    app:startIconDrawable="@drawable/ic_baseline_email_24"
+    tools:alpha="100">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:background="@drawable/input_background"
+        android:hint="Password"
+        android:textColor="#8C000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:inputType="textPassword"  />
+</com.google.android.material.textfield.TextInputLayout>
+
+    <RelativeLayout
+        android:layout_width="245dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="453dp"
+        android:layout_centerHorizontal="true"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/loginButton"
+            android:layout_width="245dp"
+            android:layout_height="45dp"
+            android:background="@drawable/button_selector"
+            tools:text="Login"
+            android:lineHeight="30.26dp"
+            android:text="Login"
+            android:textColor="#FFF5F7F8"
+            android:textSize="25dp"
+            app:radius="20dp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="522dp"
+        android:text="Don’t have an account? "
+        android:layout_gravity="top|left"
+        android:gravity="left|top"
+        android:includeFontPadding="false"
+        android:textColor="#FF000000"
+        android:textSize="15dp"
+        tools:text="Don’t have an account? " />
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:textStyle="bold|italic"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="522dp"
+        android:gravity="left|top"
+        android:includeFontPadding="false"
+        android:text="Register Now"
+        android:textColor="#FF000000"
+        android:textSize="15dp"
+        tools:text="Register Now" />
+</RelativeLayout>
