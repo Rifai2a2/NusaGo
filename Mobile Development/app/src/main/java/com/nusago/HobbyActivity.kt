@@ -17,6 +17,7 @@ import com.nusago.api.ApiConfig
 import com.nusago.databinding.ActivityHobbyBinding
 import com.nusago.response.DataItem
 import com.nusago.response.HomeResponse
+import com.nusago.ui.SurveiActivity
 import com.nusago.ui.home.HomeFragment
 import com.nusago.ui.home.HomeViewModel
 import com.nusago.ui.signup.SignupActivity
@@ -84,37 +85,19 @@ class HobbyActivity : AppCompatActivity() {
 
     private fun setupAction() {
         binding.waterActivities.setOnClickListener {
-
-            getAndNavigateToHomeFragment("water")
+            startActivity(Intent(this, SurveiActivity::class.java))
         }
 
         binding.hiking.setOnClickListener {
-
-            getAndNavigateToHomeFragment("hiking")
+            startActivity(Intent(this, SurveiActivity::class.java))
         }
 
         binding.culinaryTour.setOnClickListener {
-
-            getAndNavigateToHomeFragment("culinary")
+            startActivity(Intent(this, SurveiActivity::class.java))
         }
 
         binding.other.setOnClickListener {
-
-            getAndNavigateToHomeFragment("other")
+            startActivity(Intent(this, SurveiActivity::class.java))
         }
     }
-
-    private fun getAndNavigateToHomeFragment(category: String) {
-
-        navigateToHomeFragment()
-    }
-
-    private fun navigateToHomeFragment() {
-        val intent = Intent(this, MainActivity::class.java)
-        startActivity(intent)
-    }
-
-
-
-
 }

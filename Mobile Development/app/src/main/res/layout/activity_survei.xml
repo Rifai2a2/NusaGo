@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/survey"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_700"
+    android:clipToPadding="false">
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="753.3dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="top|left"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+        <RelativeLayout
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_marginLeft="132dp"
+            android:layout_gravity="top|left"
+            android:clipChildren="false"
+            android:clipToPadding="false">
+
+            <RelativeLayout
+                android:layout_width="88dp"
+                android:layout_height="88dp"
+                android:layout_gravity="top|left">
+
+                <RelativeLayout
+                    android:layout_width="88dp"
+                    android:layout_height="88dp"
+                    android:layout_gravity="top|left">
+
+                    <com.nusago.ui.round.CodiaRoundImageView android:layout_width="88dp" android:layout_height="88dp" android:layout_gravity="top|left" android:background="@drawable/drawable_shape_2" android:scaleType="centerInside" app:radius="44dp"/>
+                    <ImageView
+                        android:layout_width="45.19dp"
+                        android:layout_height="45.19dp"
+                        android:layout_marginLeft="34.61dp"
+                        android:layout_marginTop="13.49dp"
+                        android:layout_gravity="top|left"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/drawable_image" />
+
+                    <ImageView
+                        android:layout_width="30.92dp"
+                        android:layout_height="30.92dp"
+                        android:layout_marginLeft="10.79dp"
+                        android:layout_marginTop="21.41dp"
+                        android:layout_gravity="top|left"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/drawable_image_4" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="59dp"
+                android:layout_height="13dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="55dp"
+                android:layout_gravity="top|left"
+                android:fallbackLineSpacing="false"
+                android:gravity="left|top"
+                android:includeFontPadding="false"
+                android:lineHeight="18.15dp"
+                android:lineSpacingExtra="0.58dp"
+                android:text="NusaGo"
+                android:textColor="#FF1E1E1E"
+                android:textSize="15dp"
+                tools:text="NusaGo" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="120dp"
+            android:layout_height="53dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="127dp"
+            android:layout_marginTop="100dp"
+            android:layout_gravity="top|left"
+            android:background="@drawable/drawable_shape_3"
+            android:clipChildren="false"
+            android:clipToPadding="false">
+
+            <com.nusago.ui.round.CodiaRoundImageView
+                android:layout_width="120dp"
+                android:layout_height="53dp"
+                android:layout_gravity="top|left"
+                android:background="@drawable/border_radius"
+                android:scaleType="centerInside"
+                app:radius="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textStyle="bold|italic"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="12dp"
+                android:layout_gravity="top|left"
+                android:text="Survey"
+                android:gravity="left|top"
+                android:includeFontPadding="false"
+                android:textColor="#FF000000"
+                android:textSize="25dp" />
+        </RelativeLayout>
+        <com.nusago.ui.round.CodiaRoundImageView android:layout_width="99dp" android:layout_height="36.5dp" android:layout_marginLeft="67dp" android:layout_marginTop="296dp" android:layout_gravity="top|left" android:background="@drawable/drawable_shape" android:scaleType="centerInside" app:radius="20dp"/>
+        <com.nusago.ui.round.CodiaRoundImageView android:layout_width="94dp" android:layout_height="39dp" android:layout_marginLeft="189dp" android:layout_marginTop="294dp" android:layout_gravity="top|left" android:background="@drawable/drawable_shape" android:scaleType="centerInside" app:radius="20dp"/>
+        <com.nusago.ui.round.CodiaRoundImageView android:layout_width="94dp" android:layout_height="36.5dp" android:layout_marginLeft="19dp" android:layout_marginTop="247dp" android:layout_gravity="top|left" android:background="@drawable/drawable_shape" android:scaleType="centerInside" app:radius="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="253dp"
+            android:textStyle="bold"
+            android:layout_gravity="top|left"
+            android:gravity="center_horizontal|top"
+            android:includeFontPadding="false"
+            android:lineHeight="12.1dp"
+            android:text="White Sand \nBeach"
+            android:textColor="#FF000000"
+            android:textSize="10dp"
+            tools:text="White Sand \nBeach" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_gravity="top|left"
+            android:layout_marginTop="197dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal|top"
+            android:includeFontPadding="false"
+            android:lineHeight="24.2dp"
+            android:text="What do you want to find?"
+            android:textColor="#FF000000"
+            android:textSize="20dp"
+            tools:text="What do you want to find?" />
+
+        <com.nusago.ui.round.CodiaRoundImageView android:layout_width="94dp" android:layout_height="36.5dp" android:layout_marginLeft="130dp" android:layout_marginTop="247dp" android:layout_gravity="top|left" android:scaleType="centerInside" android:src="@drawable/drawable_shape" app:radius="20dp"/>
+        <com.nusago.ui.round.CodiaRoundImageView android:layout_width="94dp" android:layout_height="36dp" android:layout_marginLeft="241dp" android:layout_marginTop="247dp" android:layout_gravity="top|left" android:background="@drawable/drawable_shape" android:scaleType="centerInside" app:radius="20dp"/>
+
+        <com.nusago.ui.round.CodiaRoundImageView
+            android:layout_width="99dp"
+            android:layout_height="36.5dp"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="645dp"
+            android:background="@drawable/drawable_shape"
+            android:scaleType="centerInside"
+            app:radius="20dp" />
+
+        <com.nusago.ui.round.CodiaRoundImageView android:layout_width="99dp" android:layout_height="36.5dp" android:layout_marginLeft="187dp" android:layout_marginTop="647dp" android:layout_gravity="top|left" android:background="@drawable/drawable_shape" android:scaleType="centerInside" app:radius="20dp"/>
+
+        <com.nusago.ui.round.CodiaRoundImageView
+            android:layout_width="94dp"
+            android:layout_height="36.5dp"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="595dp"
+            android:background="@drawable/drawable_shape"
+            android:scaleType="centerInside"
+            app:radius="20dp" />
+
+        <com.nusago.ui.round.CodiaRoundImageView android:layout_width="94dp" android:layout_height="36.5dp" android:layout_marginLeft="137dp" android:layout_marginTop="595dp" android:layout_gravity="top|left" android:scaleType="centerInside" android:src="@drawable/drawable_shape" app:radius="20dp"/>
+        <com.nusago.ui.round.CodiaRoundImageView android:layout_width="89dp" android:layout_height="38dp" android:layout_marginLeft="249dp" android:layout_marginTop="593dp" android:layout_gravity="top|left" android:background="@drawable/drawable_shape" android:scaleType="centerInside" app:radius="20dp"/>
+        <com.nusago.ui.round.CodiaRoundImageView android:layout_width="99dp" android:layout_height="36.5dp" android:layout_marginLeft="51dp" android:layout_marginTop="532dp" android:layout_gravity="top|left" android:background="@drawable/drawable_shape" android:scaleType="centerInside" app:radius="20dp"/>
+
+        <com.nusago.ui.round.CodiaRoundImageView
+            android:layout_width="99dp"
+            android:layout_height="36.5dp"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="174dp"
+            android:layout_marginTop="532dp"
+            android:background="@drawable/drawable_shape"
+            android:scaleType="centerInside"
+            app:radius="20dp" />
+
+        <com.nusago.ui.round.CodiaRoundImageView android:layout_width="104dp" android:layout_height="36dp" android:layout_marginLeft="18dp" android:layout_marginTop="480dp" android:layout_gravity="top|left" android:background="@drawable/drawable_shape" android:scaleType="centerInside" app:radius="20dp"/>
+        <com.nusago.ui.round.CodiaRoundImageView android:layout_width="94dp" android:layout_height="36.5dp" android:layout_marginLeft="134.5dp" android:layout_marginTop="480dp" android:layout_gravity="top|left" android:scaleType="centerInside" android:src="@drawable/drawable_shape" app:radius="20dp"/>
+        <com.nusago.ui.round.CodiaRoundImageView android:layout_width="113dp" android:layout_height="36dp" android:layout_marginLeft="235dp" android:layout_marginTop="480dp" android:layout_gravity="top|left" android:background="@drawable/drawable_shape" android:scaleType="centerInside" app:radius="20dp"/>
+        <com.nusago.ui.round.CodiaRoundImageView android:layout_width="99dp" android:layout_height="36.5dp" android:layout_marginLeft="60dp" android:layout_marginTop="408dp" android:layout_gravity="top|left" android:background="@drawable/drawable_shape" android:scaleType="centerInside" app:radius="20dp"/>
+        <com.nusago.ui.round.CodiaRoundImageView android:layout_width="99dp" android:layout_height="36.5dp" android:layout_marginLeft="176dp" android:layout_marginTop="408dp" android:layout_gravity="top|left" android:background="@drawable/drawable_shape" android:scaleType="centerInside" app:radius="20dp"/>
+        <com.nusago.ui.round.CodiaRoundImageView android:layout_width="94dp" android:layout_height="36.5dp" android:layout_marginLeft="21dp" android:layout_marginTop="357dp" android:layout_gravity="top|left" android:background="@drawable/drawable_shape" android:scaleType="centerInside" app:radius="20dp"/>
+        <com.nusago.ui.round.CodiaRoundImageView android:layout_width="99dp" android:layout_height="36dp" android:layout_marginLeft="136dp" android:layout_marginTop="357dp" android:layout_gravity="top|left" android:scaleType="centerInside" android:src="@drawable/drawable_shape" app:radius="20dp"/>
+        <com.nusago.ui.round.CodiaRoundImageView android:layout_width="89dp" android:layout_height="38dp" android:layout_marginLeft="250dp" android:layout_marginTop="355dp" android:layout_gravity="top|left" android:background="@drawable/drawable_shape" android:scaleType="centerInside" app:radius="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="12dp"
+            android:layout_marginLeft="155dp"
+            android:layout_marginTop="258dp"
+            android:layout_gravity="top|left"
+            android:textStyle="bold"
+            android:gravity="center_horizontal|top"
+            android:includeFontPadding="false"
+            android:lineHeight="12.1dp"
+            android:text="WaterFall"
+            android:textColor="#FF000000"
+            android:textSize="10dp"
+            tools:text="WaterFall" />
+
+        <TextView
+            android:layout_width="68dp"
+            android:layout_height="23dp"
+            android:layout_marginLeft="255dp"
+            android:layout_marginTop="253dp"
+            android:textStyle="bold"
+            android:layout_gravity="top|left"
+            android:fallbackLineSpacing="false"
+            android:gravity="center_horizontal|top"
+            android:includeFontPadding="false"
+            android:lineHeight="12.1dp"
+            android:lineSpacingExtra="0.38dp"
+            android:text="Family water tourism"
+            android:textColor="#FF000000"
+            android:textSize="10dp"
+            tools:text="Family water tourism" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginLeft="93dp"
+            android:layout_marginTop="303dp"
+            android:layout_gravity="top|left"
+            android:textStyle="bold"
+            android:gravity="center_horizontal|top"
+            android:includeFontPadding="false"
+            android:lineHeight="12.1dp"
+            android:text="Swimming \nPool"
+            android:textColor="#FF000000"
+            android:textSize="10dp"
+            tools:text="Swimming \nPool" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginLeft="43dp"
+            android:layout_marginTop="363dp"
+            android:layout_gravity="top|left"
+            android:gravity="center_horizontal|top"
+            android:includeFontPadding="false"
+            android:textStyle="bold"
+            android:lineHeight="12.1dp"
+            android:text="Traditional \nFood"
+            android:textColor="#FF000000"
+            android:textSize="10dp"
+            tools:text="Traditional \nFood" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="89dp"
+            android:layout_marginTop="414dp"
+            android:gravity="center_horizontal|top"
+            android:includeFontPadding="false"
+            android:lineHeight="12.1dp"
+            android:text="Food \nFestival"
+            android:textColor="#FF000000"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            tools:text="Food \nFestival" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="485dp"
+            android:layout_gravity="top|left"
+            android:textStyle="bold"
+            android:gravity="center_horizontal|top"
+            android:includeFontPadding="false"
+            android:lineHeight="12.1dp"
+            android:text="High Mountain \nClimbing"
+            android:textColor="#FF000000"
+            android:textSize="10dp"
+            tools:text="High Mountain \nClimbing" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginLeft="153dp"
+            android:layout_marginTop="486dp"
+            android:layout_gravity="top|left"
+            android:textStyle="bold"
+            android:gravity="center_horizontal|top"
+            android:includeFontPadding="false"
+            android:lineHeight="12.1dp"
+            android:text="camping on \nthe hill"
+            android:textColor="#FF000000"
+            android:textSize="10dp"
+            tools:text="Camping on \nthe hill" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="12dp"
+            android:layout_marginLeft="269dp"
+            android:layout_marginTop="492dp"
+            android:layout_gravity="top|left"
+            android:gravity="center_horizontal|top"
+            android:includeFontPadding="false"
+            android:textStyle="bold"
+            android:lineHeight="12.1dp"
+            android:text="Pine Peak"
+            android:textColor="#FF000000"
+            android:textSize="10dp"
+            tools:text="Pine Peak" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="538dp"
+            android:layout_gravity="top|left"
+            android:textStyle="bold"
+            android:gravity="center_horizontal|top"
+            android:includeFontPadding="false"
+            android:lineHeight="12.1dp"
+            android:text="National Park \nTrekking"
+            android:textColor="#FF000000"
+            android:textSize="10dp"
+            tools:text="National Park \nTrekking" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="12dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="544dp"
+            android:textStyle="bold"
+            android:layout_gravity="top|left"
+            android:gravity="center_horizontal|top"
+            android:includeFontPadding="false"
+            android:lineHeight="12.1dp"
+            android:text="Pine Forest"
+            android:textColor="#FF000000"
+            android:textSize="10dp"
+            tools:text="Pine Forest" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginLeft="51dp"
+            android:layout_marginTop="600dp"
+            android:textStyle="bold"
+            android:layout_gravity="top|left"
+            android:gravity="center_horizontal|top"
+            android:includeFontPadding="false"
+            android:lineHeight="12.1dp"
+            android:text="Historic \nBuildings"
+            android:textColor="#FF000000"
+            android:textSize="10dp"
+            tools:text="Historic \nBuildings" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="155dp"
+            android:layout_marginTop="600dp"
+            android:gravity="center_horizontal|top"
+            android:includeFontPadding="false"
+            android:lineHeight="12.1dp"
+            android:text="City Museum \nTour"
+            android:textColor="#FF000000"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            tools:text="City Museum \nTour" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="12dp"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="657dp"
+            android:layout_gravity="top|left"
+            android:textStyle="bold"
+            android:gravity="center_horizontal|top"
+            android:includeFontPadding="false"
+            android:lineHeight="12.1dp"
+            android:text="Temple Tour"
+            android:textColor="#FF000000"
+            android:textSize="10dp"
+            tools:text="Temple Tour" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="12dp"
+            android:layout_marginLeft="265dp"
+            android:layout_marginTop="606dp"
+            android:textStyle="bold"
+            android:layout_gravity="top|left"
+            android:gravity="center_horizontal|top"
+            android:includeFontPadding="false"
+            android:lineHeight="12.1dp"
+            android:text="Palace Tour "
+            android:textColor="#FF000000"
+            android:textSize="10dp"
+            tools:text="Palace Tour " />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginLeft="203dp"
+            android:layout_marginTop="653dp"
+            android:textStyle="bold"
+            android:layout_gravity="top|left"
+            android:gravity="center_horizontal|top"
+            android:includeFontPadding="false"
+            android:lineHeight="12.1dp"
+            android:text="Attractions in \nthe city"
+            android:textColor="#FF000000"
+            android:textSize="10dp"
+            tools:text="Attractions in \nthe city" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginLeft="199dp"
+            android:layout_marginTop="414dp"
+            android:layout_gravity="top|left"
+            android:textStyle="bold"
+            android:gravity="center_horizontal|top"
+            android:includeFontPadding="false"
+            android:lineHeight="12.1dp"
+            android:text="Fine Dining \nRestaurant"
+            android:textColor="#FF000000"
+            android:textSize="10dp"
+            tools:text="Fine Dining \nRestaurant" />
+
+        <TextView
+            android:layout_width="96dp"
+            android:layout_height="23dp"
+            android:layout_marginLeft="138dp"
+            android:layout_marginTop="364dp"
+            android:textStyle="bold"
+            android:layout_gravity="top|left"
+            android:fallbackLineSpacing="false"
+            android:gravity="center_horizontal|top"
+            android:includeFontPadding="false"
+            android:lineHeight="12.1dp"
+            android:lineSpacingExtra="0.38dp"
+            android:text="Traditional \nMarket"
+            android:textColor="#FF000000"
+            android:textSize="10dp"
+            tools:text="Traditional \nMarket" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="12dp"
+            android:layout_marginLeft="273dp"
+            android:layout_marginTop="367dp"
+            android:textStyle="bold"
+            android:layout_gravity="top|left"
+            android:gravity="center_horizontal|top"
+            android:includeFontPadding="false"
+            android:lineHeight="12.1dp"
+            android:text="Culinary "
+            android:textColor="#FF000000"
+            android:textSize="10dp"
+            tools:text="Culinary " />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginLeft="209dp"
+            android:layout_marginTop="302dp"
+            android:textStyle="bold"
+            android:layout_gravity="top|left"
+            android:gravity="center_horizontal|top"
+            android:includeFontPadding="false"
+            android:lineHeight="12.1dp"
+            android:text="Beach with \ncliffs"
+            android:textColor="#FF000000"
+            android:textSize="10dp"
+            tools:text="beach with \ncliffs" />
+
+        <RelativeLayout
+            android:layout_width="245dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="700dp"
+            android:layout_centerHorizontal="true"
+            android:clipChildren="false"
+            android:clipToPadding="false">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/continueButton"
+                android:layout_width="245dp"
+                android:layout_height="45dp"
+                android:background="@drawable/button_selector"
+                tools:text="Continue"
+                android:textStyle="bold"
+                android:lineHeight="30.26dp"
+                android:text="Continue"
+                android:textColor="#FFF5F7F8"
+                android:textSize="25dp"
+                app:radius="20dp"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+
+            android:layout_width="65dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="195dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/skipButton"
+                android:layout_width="245dp"
+                android:layout_height="45dp"
+                android:background="@drawable/button_selector"
+                android:lineHeight="30.26dp"
+                android:text="Skip"
+                android:textColor="#FFF5F7F8"
+                android:textSize="15dp"
+                android:textStyle="bold|italic"
+                app:radius="20dp"
+                tools:text="Skip" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -15,24 +15,4 @@ interface ApiService {
     @GET("lokasi/search/{query}")
     fun searchLocations(@Path("query") query: String): Call<HomeResponse>
 
-    @GET("lokasi/hobby/others")
-    fun getOthers(
-        @Query("q") id: String
-    ): Call<HomeResponse>
-
-    @GET("lokasi/hobby/{type}")
-    fun getHobbyData(@Path("type") type: String): Call<HomeResponse>
-
-    @GET("lokasi/hobby/water")
-    fun getWater(
-        @Query("q") id: String
-    ): Call<HomeResponse>
-
-    @GET("lokasi/hobby/hiking")
-    fun getHiking(
-        @Query("q") id: String
-    ): Call<HomeResponse>
-
-
-
 }

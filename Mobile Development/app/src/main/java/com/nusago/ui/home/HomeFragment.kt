@@ -46,18 +46,6 @@ class HomeFragment : Fragment() {
             showLoading(it)
         }
 
-        homeViewModel.selectedCategory.observe(viewLifecycleOwner) { selectedCategory ->
-
-            when (selectedCategory) {
-                "water" -> homeViewModel.getWaterActivities("")
-                "hiking" -> homeViewModel.getHikingData("")
-                "culinary" -> homeViewModel.getCulinaryData()
-                "other" -> homeViewModel.getOthersData("")
-            }
-        }
-
-
-
         with(binding) {
             searchView.setupWithSearchBar(searchBar)
             searchView
