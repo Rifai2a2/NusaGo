@@ -65,7 +65,9 @@
         <com.nusago.ui.round.CodiaRoundImageView android:layout_width="320dp"
             android:layout_centerHorizontal="true"
             android:layout_height="72dp" android:layout_gravity="top|left" android:background="@drawable/drawable_shape_1" android:scaleType="centerInside" app:radius="10dp"/>
-        <com.nusago.ui.round.CodiaRoundImageView android:layout_width="320dp" android:layout_height="72dp" android:layout_marginTop="92dp" android:layout_gravity="top|left" android:background="@drawable/drawable_shape_1" android:scaleType="centerInside" app:radius="10dp"/>
+        <com.nusago.ui.round.CodiaRoundImageView
+            android:id="@+id/changeHobby"
+            android:layout_width="320dp" android:layout_height="72dp" android:layout_marginTop="92dp" android:layout_gravity="top|left" android:background="@drawable/drawable_shape_1" android:scaleType="centerInside" app:radius="10dp"/>
         <com.nusago.ui.round.CodiaRoundImageView
             android:id="@+id/logout"
             android:layout_width="320dp" android:layout_height="72dp" android:layout_marginTop="183dp" android:layout_gravity="top|left" android:background="@drawable/drawable_shape_1" android:scaleType="centerInside" app:radius="10dp"/>

@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import com.nusago.HobbyActivity
 import com.nusago.databinding.FragmentProfileBinding
 import com.nusago.ui.login.LoginActivity
 
@@ -31,6 +32,10 @@ class ProfileFragment : Fragment() {
 
         binding.logout.setOnClickListener {
             startActivity(Intent(requireContext(), LoginActivity::class.java))
+        }
+
+        binding.changeHobby.setOnClickListener {
+            startActivity(Intent(requireContext(), HobbyActivity::class.java))
         }
         return root
     }

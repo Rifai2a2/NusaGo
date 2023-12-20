@@ -28,94 +28,14 @@ class HomeViewModel(application: Application) : AndroidViewModel(application) {
     @SuppressLint("StaticFieldLeak")
     private val context: Context = application.applicationContext
 
-    private val _selectedCategory = MutableLiveData<String>()
-    val selectedCategory: LiveData<String> = _selectedCategory
-
-
 init{
-
-            getWaterActivities("")
-           getHikingData("")
-             getCulinaryData()
-             getOthersData("")
-
+             getAllData("")
     }
 
 
-    fun getWaterActivities(query: String) {
+    fun getAllData(query: String) {
         _isLoading.value = true
-         val client = ApiConfig.getApiService().getWater(query)
-        client.enqueue(object : Callback<HomeResponse> {
-            override fun onResponse(
-                call: Call<HomeResponse>,
-                response: Response<HomeResponse>
-            ) {
-                _isLoading.value = false
-                if (response.isSuccessful) {
-                    _listReview.value = response.body()?.data as List<DataItem?>
-                } else {
-                    Log.e(TAG, "onFailure: ${response.message()}")
-                }
-            }
-
-            override fun onFailure(call: Call<HomeResponse>, t: Throwable) {
-                _isLoading.value = false
-                Log.e(TAG, "onFailure: ${t.message.toString()}")
-            }
-        })
-    }
-
-
-    fun getHikingData(query:String) {
-        _isLoading.value = true
-        val client = ApiConfig.getApiService().getHiking(query)
-        client.enqueue(object : Callback<HomeResponse> {
-            override fun onResponse(
-                call: Call<HomeResponse>,
-                response: Response<HomeResponse>
-            ) {
-                _isLoading.value = false
-                if (response.isSuccessful) {
-                    _listReview.value = response.body()?.data as List<DataItem?>
-                } else {
-                    Log.e(TAG, "onFailure: ${response.message()}")
-                }
-            }
-
-            override fun onFailure(call: Call<HomeResponse>, t: Throwable) {
-                _isLoading.value = false
-                Log.e(TAG, "onFailure: ${t.message.toString()}")
-            }
-        })
-    }
-
-        fun getCulinaryData() {
-        _isLoading.value = true
-        val client = ApiConfig.getApiService().getHobbyData("culinary")
-        client.enqueue(object : Callback<HomeResponse> {
-            override fun onResponse(
-                call: Call<HomeResponse>,
-                response: Response<HomeResponse>
-            ) {
-                _isLoading.value = false
-                if (response.isSuccessful) {
-                    _listReview.value = response.body()?.data as List<DataItem?>
-                } else {
-                    Log.e(TAG, "onFailure: ${response.message()}")
-                }
-            }
-
-            override fun onFailure(call: Call<HomeResponse>, t: Throwable) {
-                _isLoading.value = false
-                Log.e(TAG, "onFailure: ${t.message.toString()}")
-            }
-        })
-    }
-
-
-    fun getOthersData(query: String) {
-        _isLoading.value = true
-        val client = ApiConfig.getApiService().getOthers(query)
+        val client = ApiConfig.getApiService().getLocations(query)
         client.enqueue(object : Callback<HomeResponse> {
             override fun onResponse(
                 call: Call<HomeResponse>,

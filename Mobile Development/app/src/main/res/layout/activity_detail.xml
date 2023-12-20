@@ -146,7 +146,7 @@
         <TextView
             android:id="@+id/tvDesc"
             android:layout_width="match_parent"
-            android:layout_height="350dp"
+            android:layout_height="wrap_content"
             android:layout_gravity="top|left"
             android:layout_marginLeft="29dp"
             android:layout_marginTop="35dp"
@@ -169,7 +169,7 @@
             android:gravity="left|top"
             android:includeFontPadding="false"
             android:lineHeight="22.99dp"
-            android:text="Description"
+            android:text="Open"
             android:textColor="#FF000000"
             android:textSize="19dp"
             android:textStyle="bold"
