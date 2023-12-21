@@ -1,12 +1,13 @@
 # NusaGo
-![NusaGo logo](logo-NusaGo.png "NusaGo logo")
+<img src="logo-NusaGo.png" alt="NusaGo circle logo" style="height: 200px; width:200px;"/>
+
 ### Bangkit Academy 2023 Capstone Project CH2-PS115
 
 #### Introduction
 NusaGo, a digital platform 'Your Personal Travel Guide', to help the promotion of tourist attractions as a solution in the tourism sector and contribute to the recovery and growth of the sector. NusaGo, offers personalized travel recommendations based on user's hobbies and surveys.
 
 #### Design App
-This is our **[Design App] (https://www.figma.com/file/gZmx3vDvlPCnphWQqHL7o3/Untitled?type=design&node-id=0%3A1&mode=design&t=4FkYJOPbDHE2yN9W-1)**
+This is our **[Design App](https://www.figma.com/file/gZmx3vDvlPCnphWQqHL7o3/Untitled?type=design&node-id=0%3A1&mode=design&t=4FkYJOPbDHE2yN9W-1)**
 
 
 Team Member :
