@@ -128,7 +128,7 @@ model = RecommenderModel(user_model, place_model, description_model, task)
 model.compile(optimizer=tf.keras.optimizers.Adagrad(learning_rate=0.1))
 
 # Create input pipelines
-train_batch_size = 32
+train_batch_size = 64
 train_data = tf.data.Dataset.from_tensor_slices(dict(train_df))
 train_data = train_data.batch(train_batch_size)
 
