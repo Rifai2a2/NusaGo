@@ -1,0 +1,11 @@
+__pycache__
+.dockerignore
+Dockerfile
+recommender_model_savedmodel
+archive (1)
+Loaded.ipynb
+Machine_learning_model.ipynb
+Machine_learning_model.py
+Test.py
+requirements.txt
+.idea

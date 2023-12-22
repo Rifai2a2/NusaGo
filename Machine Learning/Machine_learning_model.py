@@ -140,7 +140,7 @@ model.fit(train_data, epochs=5)
 sample_data = next(iter(train_data))
 model(sample_data)
 # Save the model in TensorFlow SavedModel format
-model.save("recommender_model_savedmodel", save_format="tf")
+# model.save("recommender_model_savedmodel", save_format="tf")
 
 # Evaluate the model
 model.evaluate(test_data)
@@ -194,7 +194,7 @@ def get_recommendations(model, user_id, keywords, category=None, top_k=5):
 
 
 # Example usage with multiple keywords and category filter
-user_id = "123"  # Replace with the desired user_id
+user_id = "24"  # Replace with the desired user_id
 keywords = [
     "White Sand Beach",
     "Waterfall",
